@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomDevice xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Custom Device.xsd">
+<XSDVersion Major="2010" Minor="0" Fix="0" Build="0" />
+  <AddMenu>
+    <eng>FPGA RM Test Custom Device</eng>
+    <loc>FPGA RM Test Custom Device</loc>
+  </AddMenu>
+  <Version>1.0.0</Version>
+  <Type>Inline HW Interface</Type>
+  <MaxOccurrence>1</MaxOccurrence>
+  <MainPageGUID>eb9566fc-7c4d-4f58-94ce-be480dc54b12</MainPageGUID>
+  <InitializationVI>
+    <Type>Action</Type>
+    <Item2Launch>
+      <Type>To Common Doc Dir</Type>
+		<Path>Custom Devices\FPGA RM Test Custom Device\FPGA RM Test Custom Device Configuration.llb\Initialization VI.vi</Path>
+    </Item2Launch>
+  </InitializationVI>
+  <CustomDeviceVI>
+		<SourceDistribution>
+			<Source>
+				<SupportedTarget>Windows</SupportedTarget>
+				<Source>
+					<Type>To Common Doc Dir</Type>
+					<Path>Custom Devices\FPGA RM Test Custom Device\Windows\FPGA RM Test Custom Device Engine Windows.llb\RT Driver VI.vi</Path>
+				</Source>
+				<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\FPGA RM Test Custom Device\FPGA RM Test Custom Device Engine Windows.llb\RT Driver VI.vi</RealTimeSystemDestination>
+			</Source>
+			<Source>
+				<SupportedTarget>Pharlap</SupportedTarget>
+				<Source>
+					<Type>To Common Doc Dir</Type>
+					<Path>Custom Devices\FPGA RM Test Custom Device\PharLap\FPGA RM Test Custom Device Engine Pharlap.llb\RT Driver VI.vi</Path>
+				</Source>
+				<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\FPGA RM Test Custom Device\FPGA RM Test Custom Device Engine Pharlap.llb\RT Driver VI.vi</RealTimeSystemDestination>
+			</Source>
+			<Source>
+				<SupportedTarget>VxWorks</SupportedTarget>
+				<Source>
+					<Type>To Common Doc Dir</Type>
+					<Path>Custom Devices\FPGA RM Test Custom Device\VxWorks\FPGA RM Test Custom Device Engine VxWorks.llb\RT Driver VI.vi</Path>
+				</Source>
+				<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\FPGA RM Test Custom Device\FPGA RM Test Custom Device Engine VxWorks.llb\RT Driver VI.vi</RealTimeSystemDestination>
+			</Source>	
+			<Source>
+				<SupportedTarget>Linux_32_ARM</SupportedTarget>
+				<Source>
+					<Type>To Common Doc Dir</Type>
+					<Path>Custom Devices\FPGA RM Test Custom Device\Linux_32_ARM\FPGA RM Test Custom Device Engine LinuxARM.llb\RT Driver VI.vi</Path>
+				</Source>
+				<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\FPGA RM Test Custom Device\FPGA RM Test Custom Device Engine LinuxARM.llb\RT Driver VI.vi</RealTimeSystemDestination>
+			</Source>
+			<Source>
+				<SupportedTarget>Linux_x64</SupportedTarget>
+				<Source>
+					<Type>To Common Doc Dir</Type>
+					<Path>Custom Devices\FPGA RM Test Custom Device\Linux_x64\FPGA RM Test Custom Device Engine Linux64.llb\RT Driver VI.vi</Path>
+				</Source>
+				<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\FPGA RM Test Custom Device\FPGA RM Test Custom Device Engine Linux64.llb\RT Driver VI.vi</RealTimeSystemDestination>
+			</Source>
+		</SourceDistribution>
+	</CustomDeviceVI>
+  <Dependencies />
+  <Pages>
+    <Page>
+      <Name>
+        <eng>FPGA RM Test Custom Device</eng>
+        <loc>FPGA RM Test Custom Device</loc>
+      </Name>
+      <GUID>eb9566fc-7c4d-4f58-94ce-be480dc54b12</GUID>
+      <Glyph>
+			<Type>To Application Data Dir</Type>
+			<Path>System Explorer\Glyphs\default fpga category.png</Path>
+		</Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+		<Path>Custom Devices\FPGA RM Test Custom Device\FPGA RM Test Custom Device Configuration.llb\Main Page.vi</Path>
+      </Item2Launch>
+    </Page>
+    
+<Page>
+      <Name>
+        <eng>add test</eng>
+        <loc>add test</loc>
+      </Name>
+      <GUID>fcf888b8-0ce8-443b-9864-6b469d22d368</GUID>
+      <Glyph>
+			<Type>To Application Data Dir</Type>
+			<Path>System Explorer\Glyphs\default fpga category.png</Path>
+		</Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+		<Path>Custom Devices\FPGA RM Test Custom Device\FPGA RM Test Custom Device Configuration.llb\add test.vi</Path>
+      </Item2Launch>
+    </Page>
+<Page>
+      <Name>
+        <eng>remove test</eng>
+        <loc>remove test</loc>
+      </Name>
+      <GUID>a204db17-eab5-4bb9-80b1-e59c0bd39c90</GUID>
+      <Glyph>
+			<Type>To Application Data Dir</Type>
+			<Path>System Explorer\Glyphs\default fpga category.png</Path>
+		</Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+		<Path>Custom Devices\FPGA RM Test Custom Device\FPGA RM Test Custom Device Configuration.llb\remove test.vi</Path>
+      </Item2Launch>
+    </Page>
+  </Pages>
+  <CustomXML>
+    <Dummy></Dummy>
+  </CustomXML>
+</CustomDevice>
