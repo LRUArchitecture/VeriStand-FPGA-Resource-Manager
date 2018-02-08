@@ -11,6 +11,7 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="resource type.ctl" Type="VI" URL="../../Shared/resource type.ctl"/>
 		<Item Name="RM.Server.lvlib" Type="Library" URL="../RM.Server.lvlib"/>
 		<Item Name="RM.Shared.lvlib" Type="Library" URL="../../Shared/RM.Shared.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">

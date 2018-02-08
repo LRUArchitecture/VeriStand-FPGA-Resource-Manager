@@ -17,6 +17,7 @@
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI Veristand/Custom Device API/Custom Device API.lvlib"/>
 			</Item>
+			<Item Name="resource type.ctl" Type="VI" URL="../../Shared/resource type.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
