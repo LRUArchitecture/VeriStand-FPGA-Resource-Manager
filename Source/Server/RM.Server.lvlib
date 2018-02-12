@@ -9,18 +9,25 @@
 
 </Property>
 	<Item Name="vizualize subVIs" Type="Folder">
-		<Item Name="rm.server.set vizualization menu.vi" Type="VI" URL="../rm.server.set vizualization menu.vi"/>
+		<Property Name="NI.SortType" Type="Int">1</Property>
 		<Item Name="viz_command.ctl" Type="VI" URL="../viz_command.ctl"/>
+		<Item Name="viz_entry.ctl" Type="VI" URL="../viz_entry.ctl"/>
 		<Item Name="viz_state.ctl" Type="VI" URL="../viz_state.ctl"/>
+		<Item Name="viz_type.ctl" Type="VI" URL="../viz_type.ctl"/>
+		<Item Name="animate options opening.vi" Type="VI" URL="../animate options opening.vi"/>
+		<Item Name="animate side opening.vi" Type="VI" URL="../animate side opening.vi"/>
+		<Item Name="file an issue dialog.vi" Type="VI" URL="../file an issue dialog.vi"/>
+		<Item Name="resize table.vi" Type="VI" URL="../resize table.vi"/>
 		<Item Name="rm.server.send visualization command.vi" Type="VI" URL="../rm.server.send visualization command.vi"/>
-		<Item Name="rm.server.visualize.vi" Type="VI" URL="../rm.server.visualize.vi"/>
-		<Item Name="rm.server.visualize.init.vi" Type="VI" URL="../rm.server.visualize.init.vi"/>
+		<Item Name="rm.server.set vizualization menu.vi" Type="VI" URL="../rm.server.set vizualization menu.vi"/>
+		<Item Name="rm.server.visualize.about.vi" Type="VI" URL="../rm.server.visualize.about.vi"/>
+		<Item Name="rm.server.visualize.check status.vi" Type="VI" URL="../rm.server.visualize.check status.vi"/>
 		<Item Name="rm.server.visualize.close.vi" Type="VI" URL="../rm.server.visualize.close.vi"/>
 		<Item Name="rm.server.visualize.get resource entries.vi" Type="VI" URL="../rm.server.visualize.get resource entries.vi"/>
-		<Item Name="rm.server.visualize.check status.vi" Type="VI" URL="../rm.server.visualize.check status.vi"/>
-		<Item Name="viz_entry.ctl" Type="VI" URL="../viz_entry.ctl"/>
+		<Item Name="rm.server.visualize.init.vi" Type="VI" URL="../rm.server.visualize.init.vi"/>
 		<Item Name="rm.server.visualize.resource entries to table.vi" Type="VI" URL="../rm.server.visualize.resource entries to table.vi"/>
-		<Item Name="rm.server.visualize.about.vi" Type="VI" URL="../rm.server.visualize.about.vi"/>
+		<Item Name="rm.server.visualize.vi" Type="VI" URL="../rm.server.visualize.vi"/>
+		<Item Name="sort resource entries.vi" Type="VI" URL="../sort resource entries.vi"/>
 	</Item>
 	<Item Name="rm.server.template.vit" Type="VI" URL="../rm.server.template.vit"/>
 	<Item Name="rm.server.get reserver.vi" Type="VI" URL="../rm.server.get reserver.vi"/>
@@ -36,4 +43,8 @@
 	<Item Name="rm.server.find relative.vi" Type="VI" URL="../rm.server.find relative.vi"/>
 	<Item Name="rm.server.get all server references.vi" Type="VI" URL="../rm.server.get all server references.vi"/>
 	<Item Name="rm.server.bitfile name to reservation string.vi" Type="VI" URL="../rm.server.bitfile name to reservation string.vi"/>
+	<Item Name="toggle listbox checks.vi" Type="VI" URL="../toggle listbox checks.vi"/>
+	<Item Name="filter table.vi" Type="VI" URL="../filter table.vi"/>
+	<Item Name="update table.vi" Type="VI" URL="../update table.vi"/>
+	<Item Name="init and update listboxes.vi" Type="VI" URL="../init and update listboxes.vi"/>
 </Library>
