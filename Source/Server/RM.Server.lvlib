@@ -9,11 +9,7 @@
 
 </Property>
 	<Item Name="vizualize subVIs" Type="Folder">
-		<Property Name="NI.SortType" Type="Int">1</Property>
-		<Item Name="viz_command.ctl" Type="VI" URL="../viz_command.ctl"/>
-		<Item Name="viz_entry.ctl" Type="VI" URL="../viz_entry.ctl"/>
-		<Item Name="viz_state.ctl" Type="VI" URL="../viz_state.ctl"/>
-		<Item Name="viz_type.ctl" Type="VI" URL="../viz_type.ctl"/>
+		<Property Name="NI.SortType" Type="Int">0</Property>
 		<Item Name="animate options opening.vi" Type="VI" URL="../animate options opening.vi"/>
 		<Item Name="animate side opening.vi" Type="VI" URL="../animate side opening.vi"/>
 		<Item Name="file an issue dialog.vi" Type="VI" URL="../file an issue dialog.vi"/>
@@ -27,19 +23,20 @@
 		<Item Name="rm.server.visualize.init.vi" Type="VI" URL="../rm.server.visualize.init.vi"/>
 		<Item Name="rm.server.visualize.resource entries to table.vi" Type="VI" URL="../rm.server.visualize.resource entries to table.vi"/>
 		<Item Name="rm.server.visualize.vi" Type="VI" URL="../rm.server.visualize.vi"/>
+		<Item Name="show mapping" Type="VI" URL="../show mapping"/>
 		<Item Name="sort resource entries.vi" Type="VI" URL="../sort resource entries.vi"/>
+		<Item Name="viz_command.ctl" Type="VI" URL="../viz_command.ctl"/>
+		<Item Name="viz_entry.ctl" Type="VI" URL="../viz_entry.ctl"/>
+		<Item Name="viz_show.ctl" Type="VI" URL="../viz_show.ctl"/>
+		<Item Name="viz_state.ctl" Type="VI" URL="../viz_state.ctl"/>
+		<Item Name="viz_type.ctl" Type="VI" URL="../viz_type.ctl"/>
 	</Item>
 	<Item Name="rm.server.template.vit" Type="VI" URL="../rm.server.template.vit"/>
 	<Item Name="rm.server.get reserver.vi" Type="VI" URL="../rm.server.get reserver.vi"/>
-	<Item Name="rm.server.get scalar inputs.vi" Type="VI" URL="../rm.server.get scalar inputs.vi"/>
-	<Item Name="rm.server.get scalar outputs.vi" Type="VI" URL="../rm.server.get scalar outputs.vi"/>
-	<Item Name="rm.server.get waveform inputs.vi" Type="VI" URL="../rm.server.get waveform inputs.vi"/>
-	<Item Name="rm.server.get waveform outputs.vi" Type="VI" URL="../rm.server.get waveform outputs.vi"/>
 	<Item Name="rm.server.initialize.vi" Type="VI" URL="../rm.server.initialize.vi"/>
 	<Item Name="rm.server.reserve resource.vi" Type="VI" URL="../rm.server.reserve resource.vi"/>
 	<Item Name="rm.server.unreserve resource.vi" Type="VI" URL="../rm.server.unreserve resource.vi"/>
 	<Item Name="rm.server.open visualizer.vi" Type="VI" URL="../rm.server.open visualizer.vi"/>
-	<Item Name="rm.server.check for name in bitfile.vi" Type="VI" URL="../rm.server.check for name in bitfile.vi"/>
 	<Item Name="rm.server.find relative.vi" Type="VI" URL="../rm.server.find relative.vi"/>
 	<Item Name="rm.server.get all server references.vi" Type="VI" URL="../rm.server.get all server references.vi"/>
 	<Item Name="rm.server.bitfile name to reservation string.vi" Type="VI" URL="../rm.server.bitfile name to reservation string.vi"/>
@@ -47,4 +44,7 @@
 	<Item Name="filter table.vi" Type="VI" URL="../filter table.vi"/>
 	<Item Name="update table.vi" Type="VI" URL="../update table.vi"/>
 	<Item Name="init and update listboxes.vi" Type="VI" URL="../init and update listboxes.vi"/>
+	<Item Name="Format RIO Device Name.vi" Type="VI" URL="../Format RIO Device Name.vi"/>
+	<Item Name="is reference null.vi" Type="VI" URL="../is reference null.vi"/>
+	<Item Name="get target resources.vi" Type="VI" URL="../get target resources.vi"/>
 </Library>
