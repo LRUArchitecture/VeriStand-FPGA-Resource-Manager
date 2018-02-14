@@ -27,6 +27,8 @@
 		<Item Name="sort resource entries.vi" Type="VI" URL="../sort resource entries.vi"/>
 		<Item Name="viz_command.ctl" Type="VI" URL="../viz_command.ctl"/>
 		<Item Name="viz_entry.ctl" Type="VI" URL="../viz_entry.ctl"/>
+		<Item Name="viz_filter options.ctl" Type="VI" URL="../viz_filter options.ctl"/>
+		<Item Name="viz_filter.ctl" Type="VI" URL="../viz_filter.ctl"/>
 		<Item Name="viz_show.ctl" Type="VI" URL="../viz_show.ctl"/>
 		<Item Name="viz_state.ctl" Type="VI" URL="../viz_state.ctl"/>
 		<Item Name="viz_type.ctl" Type="VI" URL="../viz_type.ctl"/>
@@ -47,4 +49,6 @@
 	<Item Name="Format RIO Device Name.vi" Type="VI" URL="../Format RIO Device Name.vi"/>
 	<Item Name="is reference null.vi" Type="VI" URL="../is reference null.vi"/>
 	<Item Name="get target resources.vi" Type="VI" URL="../get target resources.vi"/>
+	<Item Name="Build Vizualization Filter.vi" Type="VI" URL="../Build Vizualization Filter.vi"/>
+	<Item Name="get filter from UI inputs.vi" Type="VI" URL="../get filter from UI inputs.vi"/>
 </Library>

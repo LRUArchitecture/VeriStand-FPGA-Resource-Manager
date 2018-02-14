@@ -29,11 +29,11 @@
 	<Item Name="Run Filter.vi" Type="VI" URL="../Run Filter.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!*:!!!!%1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!&amp;!!]1!!!!!!!!!#&amp;U.V=X2P&lt;3"%:8:J9W5A16"*,GRW&lt;'FC'E.V=X2P&lt;3"%:8:J9W5A382F&lt;3"3:79O9X2M!"6!#!!,2F"(13"$2#"3:79!&amp;E!Q`````QVS:8.P&gt;8*D:3"O97VF!"2!-0````]+;7ZQ&gt;81A&gt;(FQ:1!!%E!Q`````QBE982B&gt;(FQ:1!!4A$R!!!!!!!!!!)81X6T&gt;'^N)%2F&gt;GFD:3""5%EO&lt;(:M;7);1X6T&gt;'^N)%2F&gt;GFD:3"*&gt;'6N)&amp;*F:CZD&gt;'Q!%U!)!!BS:8.F=H:F=A!!$E!Q`````Q6O&lt;X2F=Q"/!0%!!!!!!!!!!A^343Z4:8*W:8)O&lt;(:M;7).&gt;GF[8W6O&gt;(*Z,G.U&lt;!!I1&amp;!!"A!&amp;!!9!"Q!)!!E!#B"W;8.V97RJ?G6S)'6O&gt;(*Z!!!C1%!!!@````]!#R2S:8.P&gt;8*D:3"F&lt;H2S;76T)'^V&gt;!!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!A1%!!!@````]!#R.S:8.P&gt;8*D:3"F&lt;H2S;76T)'FO!#2!=!!?!!!1$E:J&lt;(2F=CZM&gt;G.M98.T!!!*2GFM&gt;'6S)'FO!&amp;1!]!!-!!-!"!!-!!1!"!!%!!1!"!!.!!1!$A!0!A!!?!!!$1A!!!!!!!!.#A!!!!!!!!!!!!!!!!!!!!!!!!!!!!!)!!!!!!!!!B!!!!#1!!!!!!%!%!!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-		<Property Name="NI.ClassItem.Flags" Type="Int">1073741824</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">1090519168</Property>
 		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.MustOverride" Type="Bool">true</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1107821056</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1073742336</Property>
 	</Item>
 </LVClass>
