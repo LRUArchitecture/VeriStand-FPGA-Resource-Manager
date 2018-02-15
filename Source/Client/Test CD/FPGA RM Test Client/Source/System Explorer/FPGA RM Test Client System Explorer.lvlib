@@ -17,13 +17,7 @@
 			<Item Name="Initialization VI.vi" Type="VI" URL="../Initialization VI.vi"/>
 			<Item Name="Main Page.vi" Type="VI" URL="../Main Page.vi"/>
 		</Item>
-		<Item Name="SubVIs" Type="Folder">
-			<Item Name="get item status.vi" Type="VI" URL="../get item status.vi"/>
-			<Item Name="initialize tree.vi" Type="VI" URL="../initialize tree.vi"/>
-			<Item Name="reserve or unreserve tree entry.vi" Type="VI" URL="../reserve or unreserve tree entry.vi"/>
-			<Item Name="tree reservation type.ctl" Type="VI" URL="../tree reservation type.ctl"/>
-			<Item Name="update tree.vi" Type="VI" URL="../update tree.vi"/>
-		</Item>
+		<Item Name="SubVIs" Type="Folder"/>
 		<Item Name="Types" Type="Folder"/>
 	</Item>
 </Library>
