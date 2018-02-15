@@ -27,28 +27,7 @@
 			<Item Name="Custom Device Utility Library.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device Tools/Custom Device Utility Library/Custom Device Utility Library.lvlib"/>
 		</Item>
 		<Item Name="RM" Type="Folder">
-			<Item Name="Filters" Type="Folder">
-				<Item Name="Boolean" Type="Folder">
-					<Property Name="NI.SortType" Type="Int">3</Property>
-					<Item Name="Boolean Filter.lvclass" Type="LVClass" URL="../System Explorer/Filters/Boolean Filter Parent/Boolean Filter.lvclass"/>
-					<Item Name="AND Filter.lvclass" Type="LVClass" URL="../System Explorer/Filters/And Filter/AND Filter.lvclass"/>
-					<Item Name="NOT Filter.lvclass" Type="LVClass" URL="../System Explorer/Filters/NOT Filter/NOT Filter.lvclass"/>
-					<Item Name="OR Filter.lvclass" Type="LVClass" URL="../System Explorer/Filters/OR Filter/OR Filter.lvclass"/>
-					<Item Name="XOR Filter.lvclass" Type="LVClass" URL="../System Explorer/Filters/XOR Filter/XOR Filter.lvclass"/>
-				</Item>
-				<Item Name="Categories" Type="Folder">
-					<Item Name="Category Filter.lvclass" Type="LVClass" URL="../System Explorer/Filters/Category Filter Parent/Category Filter.lvclass"/>
-					<Item Name="Datatype Filter.lvclass" Type="LVClass" URL="../System Explorer/Filters/Datatype Filter/Datatype Filter.lvclass"/>
-					<Item Name="Input Type Filter.lvclass" Type="LVClass" URL="../System Explorer/Filters/Input Type Filter/Input Type Filter.lvclass"/>
-					<Item Name="Reserver Filter.lvclass" Type="LVClass" URL="../System Explorer/Filters/Reserver Filter/Reserver Filter.lvclass"/>
-					<Item Name="Resource Name Filter.lvclass" Type="LVClass" URL="../System Explorer/Filters/Resource Name Filter/Resource Name Filter.lvclass"/>
-					<Item Name="RIO Device Filter.lvclass" Type="LVClass" URL="../System Explorer/Filters/RIO Device Filter/RIO Device Filter.lvclass"/>
-				</Item>
-				<Item Name="Filter.lvclass" Type="LVClass" URL="../System Explorer/Filters/Filter Parent/Filter.lvclass"/>
-			</Item>
-			<Item Name="RM.Client.lvlib" Type="Library" URL="../../../../RM.Client.lvlib"/>
-			<Item Name="RM.Server.lvlib" Type="Library" URL="../../../../../Server/RM.Server.lvlib"/>
-			<Item Name="RM.Shared.lvlib" Type="Library" URL="../../../../../Shared/RM.Shared.lvlib"/>
+			<Item Name="FPGA Resource Manager.lvlib" Type="Library" URL="../../../../../FPGA Resource Manager.lvlib"/>
 		</Item>
 		<Item Name="Utility" Type="Folder">
 			<Item Name="Copy .LLB to NI VeriStand dir.vi" Type="VI" URL="../Utility/Copy .LLB to NI VeriStand dir.vi"/>
