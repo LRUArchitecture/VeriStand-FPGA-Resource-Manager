@@ -9,93 +9,93 @@
 
 </Property>
 	<Item Name="templates" Type="Folder">
-		<Item Name="rm.server.template.vit" Type="VI" URL="../Server/rm.server.template.vit"/>
-		<Item Name="rm client template.vit" Type="VI" URL="../Client/rm client template.vit"/>
+		<Item Name="rm.server.template.vit" Type="VI" URL="../rm.server.template.vit"/>
+		<Item Name="rm client template.vit" Type="VI" URL="../rm client template.vit"/>
 	</Item>
 	<Item Name="visualizer" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">0</Property>
 		<Item Name="table" Type="Folder">
-			<Item Name="resize table.vi" Type="VI" URL="../Server/resize table.vi"/>
-			<Item Name="resource entries to table.vi" Type="VI" URL="../Server/resource entries to table.vi"/>
-			<Item Name="sort resource entries.vi" Type="VI" URL="../Server/sort resource entries.vi"/>
+			<Item Name="resize table.vi" Type="VI" URL="../resize table.vi"/>
+			<Item Name="resource entries to table.vi" Type="VI" URL="../resource entries to table.vi"/>
+			<Item Name="sort resource entries.vi" Type="VI" URL="../sort resource entries.vi"/>
 		</Item>
 		<Item Name="type defs" Type="Folder">
-			<Item Name="resource info.ctl" Type="VI" URL="../Server/resource info.ctl"/>
-			<Item Name="viz_command.ctl" Type="VI" URL="../Server/viz_command.ctl"/>
-			<Item Name="viz_filter options.ctl" Type="VI" URL="../Server/viz_filter options.ctl"/>
-			<Item Name="viz_filter.ctl" Type="VI" URL="../Server/viz_filter.ctl"/>
-			<Item Name="viz_show.ctl" Type="VI" URL="../Server/viz_show.ctl"/>
-			<Item Name="viz_state.ctl" Type="VI" URL="../Server/viz_state.ctl"/>
-			<Item Name="viz_type.ctl" Type="VI" URL="../Server/viz_type.ctl"/>
+			<Item Name="resource info.ctl" Type="VI" URL="../resource info.ctl"/>
+			<Item Name="viz_command.ctl" Type="VI" URL="../viz_command.ctl"/>
+			<Item Name="viz_filter options.ctl" Type="VI" URL="../viz_filter options.ctl"/>
+			<Item Name="viz_filter.ctl" Type="VI" URL="../viz_filter.ctl"/>
+			<Item Name="viz_show.ctl" Type="VI" URL="../viz_show.ctl"/>
+			<Item Name="viz_state.ctl" Type="VI" URL="../viz_state.ctl"/>
+			<Item Name="viz_type.ctl" Type="VI" URL="../viz_type.ctl"/>
 		</Item>
 		<Item Name="UI" Type="Folder">
-			<Item Name="about page.vi" Type="VI" URL="../Server/about page.vi"/>
-			<Item Name="animate side opening.vi" Type="VI" URL="../Server/animate side opening.vi"/>
-			<Item Name="Build Vizualization Filter.vi" Type="VI" URL="../Server/Build Vizualization Filter.vi"/>
-			<Item Name="check status.vi" Type="VI" URL="../Server/check status.vi"/>
-			<Item Name="close visualizer.vi" Type="VI" URL="../Server/close visualizer.vi"/>
-			<Item Name="file an issue dialog.vi" Type="VI" URL="../Server/file an issue dialog.vi"/>
-			<Item Name="filter table.vi" Type="VI" URL="../Server/filter table.vi"/>
-			<Item Name="Format RIO Device Name.vi" Type="VI" URL="../Server/Format RIO Device Name.vi"/>
-			<Item Name="get filter from UI inputs.vi" Type="VI" URL="../Server/get filter from UI inputs.vi"/>
-			<Item Name="get max string length in loop.vi" Type="VI" URL="../Server/get max string length in loop.vi"/>
-			<Item Name="get string length in pixels.vi" Type="VI" URL="../Server/get string length in pixels.vi"/>
-			<Item Name="init and update listboxes.vi" Type="VI" URL="../Server/init and update listboxes.vi"/>
-			<Item Name="initialize visualizer UI.vi" Type="VI" URL="../Server/initialize visualizer UI.vi"/>
-			<Item Name="launch visualizer.vi" Type="VI" URL="../Server/launch visualizer.vi"/>
-			<Item Name="send visualization command.vi" Type="VI" URL="../Server/send visualization command.vi"/>
-			<Item Name="set vizualization menu.vi" Type="VI" URL="../Server/set vizualization menu.vi"/>
-			<Item Name="toggle listbox checks.vi" Type="VI" URL="../Server/toggle listbox checks.vi"/>
-			<Item Name="update table.vi" Type="VI" URL="../Server/update table.vi"/>
-			<Item Name="visualizer main.vi" Type="VI" URL="../Server/visualizer main.vi"/>
+			<Item Name="about page.vi" Type="VI" URL="../about page.vi"/>
+			<Item Name="animate side opening.vi" Type="VI" URL="../animate side opening.vi"/>
+			<Item Name="Build Vizualization Filter.vi" Type="VI" URL="../Build Vizualization Filter.vi"/>
+			<Item Name="check status.vi" Type="VI" URL="../check status.vi"/>
+			<Item Name="close visualizer.vi" Type="VI" URL="../close visualizer.vi"/>
+			<Item Name="file an issue dialog.vi" Type="VI" URL="../file an issue dialog.vi"/>
+			<Item Name="filter table.vi" Type="VI" URL="../filter table.vi"/>
+			<Item Name="Format RIO Device Name.vi" Type="VI" URL="../Format RIO Device Name.vi"/>
+			<Item Name="get filter from UI inputs.vi" Type="VI" URL="../get filter from UI inputs.vi"/>
+			<Item Name="get max string length in loop.vi" Type="VI" URL="../get max string length in loop.vi"/>
+			<Item Name="get string length in pixels.vi" Type="VI" URL="../get string length in pixels.vi"/>
+			<Item Name="init and update listboxes.vi" Type="VI" URL="../init and update listboxes.vi"/>
+			<Item Name="initialize visualizer UI.vi" Type="VI" URL="../initialize visualizer UI.vi"/>
+			<Item Name="launch visualizer.vi" Type="VI" URL="../launch visualizer.vi"/>
+			<Item Name="send visualization command.vi" Type="VI" URL="../send visualization command.vi"/>
+			<Item Name="set vizualization menu.vi" Type="VI" URL="../set vizualization menu.vi"/>
+			<Item Name="toggle listbox checks.vi" Type="VI" URL="../toggle listbox checks.vi"/>
+			<Item Name="update table.vi" Type="VI" URL="../update table.vi"/>
+			<Item Name="visualizer main.vi" Type="VI" URL="../visualizer main.vi"/>
 		</Item>
 	</Item>
 	<Item Name="Filters" Type="Folder">
 		<Item Name="Boolean" Type="Folder">
-			<Item Name="Boolean Filter.lvclass" Type="LVClass" URL="../Client/Test CD/FPGA RM Test Client/Source/System Explorer/Filters/Boolean Filter Parent/Boolean Filter.lvclass"/>
-			<Item Name="AND Filter.lvclass" Type="LVClass" URL="../Client/Test CD/FPGA RM Test Client/Source/System Explorer/Filters/And Filter/AND Filter.lvclass"/>
-			<Item Name="NOT Filter.lvclass" Type="LVClass" URL="../Client/Test CD/FPGA RM Test Client/Source/System Explorer/Filters/NOT Filter/NOT Filter.lvclass"/>
-			<Item Name="OR Filter.lvclass" Type="LVClass" URL="../Client/Test CD/FPGA RM Test Client/Source/System Explorer/Filters/OR Filter/OR Filter.lvclass"/>
-			<Item Name="XOR Filter.lvclass" Type="LVClass" URL="../Client/Test CD/FPGA RM Test Client/Source/System Explorer/Filters/XOR Filter/XOR Filter.lvclass"/>
+			<Item Name="Boolean Filter.lvclass" Type="LVClass" URL="../Filters/Boolean Filter Parent/Boolean Filter.lvclass"/>
+			<Item Name="AND Filter.lvclass" Type="LVClass" URL="../Filters/AND Filter/AND Filter.lvclass"/>
+			<Item Name="NOT Filter.lvclass" Type="LVClass" URL="../Filters/NOT Filter/NOT Filter.lvclass"/>
+			<Item Name="OR Filter.lvclass" Type="LVClass" URL="../Filters/OR Filter/OR Filter.lvclass"/>
+			<Item Name="XOR Filter.lvclass" Type="LVClass" URL="../Filters/XOR Filter/XOR Filter.lvclass"/>
 		</Item>
 		<Item Name="Categories" Type="Folder">
-			<Item Name="Category Filter.lvclass" Type="LVClass" URL="../Client/Test CD/FPGA RM Test Client/Source/System Explorer/Filters/Category Filter Parent/Category Filter.lvclass"/>
-			<Item Name="Datatype Filter.lvclass" Type="LVClass" URL="../Client/Test CD/FPGA RM Test Client/Source/System Explorer/Filters/Datatype Filter/Datatype Filter.lvclass"/>
-			<Item Name="Input Type Filter.lvclass" Type="LVClass" URL="../Client/Test CD/FPGA RM Test Client/Source/System Explorer/Filters/Input Type Filter/Input Type Filter.lvclass"/>
-			<Item Name="Reserver Filter.lvclass" Type="LVClass" URL="../Client/Test CD/FPGA RM Test Client/Source/System Explorer/Filters/Reserver Filter/Reserver Filter.lvclass"/>
-			<Item Name="Resource Name Filter.lvclass" Type="LVClass" URL="../Client/Test CD/FPGA RM Test Client/Source/System Explorer/Filters/Resource Name Filter/Resource Name Filter.lvclass"/>
-			<Item Name="RIO Device Filter.lvclass" Type="LVClass" URL="../Client/Test CD/FPGA RM Test Client/Source/System Explorer/Filters/RIO Device Filter/RIO Device Filter.lvclass"/>
+			<Item Name="Category Filter.lvclass" Type="LVClass" URL="../Filters/Category Filter Parent/Category Filter.lvclass"/>
+			<Item Name="Datatype Filter.lvclass" Type="LVClass" URL="../Filters/Datatype Filter/Datatype Filter.lvclass"/>
+			<Item Name="Input Type Filter.lvclass" Type="LVClass" URL="../Filters/Input Type Filter/Input Type Filter.lvclass"/>
+			<Item Name="Reserver Filter.lvclass" Type="LVClass" URL="../Filters/Reserver Filter/Reserver Filter.lvclass"/>
+			<Item Name="Resource Name Filter.lvclass" Type="LVClass" URL="../Filters/Resource Name Filter/Resource Name Filter.lvclass"/>
+			<Item Name="RIO Device Filter.lvclass" Type="LVClass" URL="../Filters/RIO Device Filter/RIO Device Filter.lvclass"/>
 		</Item>
-		<Item Name="Filter.lvclass" Type="LVClass" URL="../Client/Test CD/FPGA RM Test Client/Source/System Explorer/Filters/Filter Parent/Filter.lvclass"/>
+		<Item Name="Filter.lvclass" Type="LVClass" URL="../Filters/Filter Parent/Filter.lvclass"/>
 	</Item>
 	<Item Name="FPGA CD" Type="Folder">
-		<Item Name="get FPGA resource reservation info.vi" Type="VI" URL="../Server/get FPGA resource reservation info.vi"/>
-		<Item Name="reserve resource on FPGA.vi" Type="VI" URL="../Server/reserve resource on FPGA.vi"/>
-		<Item Name="unreserve resource on FPGA.vi" Type="VI" URL="../Server/unreserve resource on FPGA.vi"/>
-		<Item Name="initialize FPGA Custom Device.vi" Type="VI" URL="../Server/initialize FPGA Custom Device.vi"/>
-		<Item Name="get all FPGA CD references.vi" Type="VI" URL="../Server/get all FPGA CD references.vi"/>
+		<Item Name="get FPGA resource reservation info.vi" Type="VI" URL="../get FPGA resource reservation info.vi"/>
+		<Item Name="reserve resource on FPGA.vi" Type="VI" URL="../reserve resource on FPGA.vi"/>
+		<Item Name="unreserve resource on FPGA.vi" Type="VI" URL="../unreserve resource on FPGA.vi"/>
+		<Item Name="initialize FPGA Custom Device.vi" Type="VI" URL="../initialize FPGA Custom Device.vi"/>
+		<Item Name="get all FPGA CD references.vi" Type="VI" URL="../get all FPGA CD references.vi"/>
 	</Item>
 	<Item Name="Client" Type="Folder">
 		<Item Name="FPGA resource tree" Type="Folder">
-			<Item Name="get item status.vi" Type="VI" URL="../Client/Test CD/FPGA RM Test Client/Source/System Explorer/get item status.vi"/>
-			<Item Name="initialize tree.vi" Type="VI" URL="../Client/Test CD/FPGA RM Test Client/Source/System Explorer/initialize tree.vi"/>
-			<Item Name="reserve or unreserve tree entry.vi" Type="VI" URL="../Client/Test CD/FPGA RM Test Client/Source/System Explorer/reserve or unreserve tree entry.vi"/>
-			<Item Name="tree reservation type.ctl" Type="VI" URL="../Client/Test CD/FPGA RM Test Client/Source/System Explorer/tree reservation type.ctl"/>
-			<Item Name="update tree.vi" Type="VI" URL="../Client/Test CD/FPGA RM Test Client/Source/System Explorer/update tree.vi"/>
+			<Item Name="get item status.vi" Type="VI" URL="../Tree/get item status.vi"/>
+			<Item Name="initialize tree.vi" Type="VI" URL="../Tree/initialize tree.vi"/>
+			<Item Name="reserve or unreserve tree entry.vi" Type="VI" URL="../Tree/reserve or unreserve tree entry.vi"/>
+			<Item Name="tree reservation type.ctl" Type="VI" URL="../Tree/tree reservation type.ctl"/>
+			<Item Name="update tree.vi" Type="VI" URL="../Tree/update tree.vi"/>
 		</Item>
-		<Item Name="reserve resource from client.vi" Type="VI" URL="../Client/reserve resource from client.vi"/>
-		<Item Name="unreserve resource from client.vi" Type="VI" URL="../Client/unreserve resource from client.vi"/>
+		<Item Name="reserve resource from client.vi" Type="VI" URL="../reserve resource from client.vi"/>
+		<Item Name="unreserve resource from client.vi" Type="VI" URL="../unreserve resource from client.vi"/>
 	</Item>
 	<Item Name="resource management" Type="Folder">
-		<Item Name="bitfile name to item property strings.vi" Type="VI" URL="../Server/bitfile name to item property strings.vi"/>
-		<Item Name="get FPGA CD resources.vi" Type="VI" URL="../Server/get FPGA CD resources.vi"/>
-		<Item Name="get all FPGA CD resources.vi" Type="VI" URL="../Server/get all FPGA CD resources.vi"/>
-		<Item Name="build resource info.vi" Type="VI" URL="../Server/build resource info.vi"/>
-		<Item Name="include mapping.vi" Type="VI" URL="../Server/include mapping.vi"/>
+		<Item Name="bitfile name to item property strings.vi" Type="VI" URL="../bitfile name to item property strings.vi"/>
+		<Item Name="get FPGA CD resources.vi" Type="VI" URL="../get FPGA CD resources.vi"/>
+		<Item Name="get all FPGA CD resources.vi" Type="VI" URL="../get all FPGA CD resources.vi"/>
+		<Item Name="build resource info.vi" Type="VI" URL="../build resource info.vi"/>
+		<Item Name="include mapping.vi" Type="VI" URL="../include mapping.vi"/>
 	</Item>
 	<Item Name="VS Ref Helpers" Type="Folder">
-		<Item Name="find Relative VS Ref.vi" Type="VI" URL="../Server/find Relative VS Ref.vi"/>
-		<Item Name="is reference null.vi" Type="VI" URL="../Server/is reference null.vi"/>
+		<Item Name="find Relative VS Ref.vi" Type="VI" URL="../find Relative VS Ref.vi"/>
+		<Item Name="is reference null.vi" Type="VI" URL="../is reference null.vi"/>
 	</Item>
-	<Item Name="global constants.vi" Type="VI" URL="../Shared/global constants.vi"/>
+	<Item Name="global constants.vi" Type="VI" URL="../global constants.vi"/>
 </Library>
