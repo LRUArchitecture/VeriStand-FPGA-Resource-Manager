@@ -80,11 +80,12 @@
 			<Item Name="get item status.vi" Type="VI" URL="../Tree/get item status.vi"/>
 			<Item Name="initialize tree.vi" Type="VI" URL="../Tree/initialize tree.vi"/>
 			<Item Name="reserve or unreserve tree entry.vi" Type="VI" URL="../Tree/reserve or unreserve tree entry.vi"/>
-			<Item Name="tree reservation type.ctl" Type="VI" URL="../Tree/tree reservation type.ctl"/>
 			<Item Name="update tree.vi" Type="VI" URL="../Tree/update tree.vi"/>
+			<Item Name="FPGA Resource Tree.ctl" Type="VI" URL="../Tree/FPGA Resource Tree.ctl"/>
 		</Item>
 		<Item Name="reserve resource from client.vi" Type="VI" URL="../reserve resource from client.vi"/>
 		<Item Name="unreserve resource from client.vi" Type="VI" URL="../unreserve resource from client.vi"/>
+		<Item Name="reservation type.ctl" Type="VI" URL="../reservation type.ctl"/>
 	</Item>
 	<Item Name="resource management" Type="Folder">
 		<Item Name="bitfile name to item property strings.vi" Type="VI" URL="../bitfile name to item property strings.vi"/>
