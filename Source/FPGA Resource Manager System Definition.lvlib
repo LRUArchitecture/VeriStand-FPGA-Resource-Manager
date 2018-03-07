@@ -98,5 +98,6 @@
 		<Item Name="find Relative VS Ref.vi" Type="VI" URL="../find Relative VS Ref.vi"/>
 		<Item Name="is reference null.vi" Type="VI" URL="../is reference null.vi"/>
 	</Item>
-	<Item Name="global constants.vi" Type="VI" URL="../global constants.vi"/>
+	<Item Name="RegisterMap to Table Entries.vi" Type="VI" URL="../RegisterMap to Table Entries.vi"/>
+	<Item Name="DMAMap to Table Entries.vi" Type="VI" URL="../DMAMap to Table Entries.vi"/>
 </Library>

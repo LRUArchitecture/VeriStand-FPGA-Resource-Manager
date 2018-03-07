@@ -5,12 +5,12 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="controls" Type="Folder">
-		<Item Name="Data Type.ctl" Type="VI" URL="../../../FPGA-Addon/Source/Shared/Data Type.ctl"/>
+		<Item Name="Data Type.ctl" Type="VI" URL="/&lt;vilib&gt;/National Instruments/VeriStand FPGA Resource Manager APIs/Data Type.ctl"/>
 		<Item Name="FG Action.ctl" Type="VI" URL="../../../FPGA-Addon/Source/Shared/FG Action.ctl"/>
 		<Item Name="Register Information.ctl" Type="VI" URL="../../../FPGA-Addon/Source/Shared/Register Information.ctl"/>
 	</Item>
 	<Item Name="shared" Type="Folder">
-		<Item Name="Available DMA FG.vi" Type="VI" URL="../../../FPGA-Addon/Source/Shared/Available DMA FG.vi"/>
-		<Item Name="Available Registers FG.vi" Type="VI" URL="../../../FPGA-Addon/Source/Shared/Available Registers FG.vi"/>
+		<Property Name="NI.SortType" Type="Int">3</Property>
 	</Item>
+	<Item Name="global constants.vi" Type="VI" URL="../global constants.vi"/>
 </Library>
