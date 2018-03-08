@@ -31,13 +31,11 @@
 		<Item Name="UI" Type="Folder">
 			<Item Name="about page.vi" Type="VI" URL="../about page.vi"/>
 			<Item Name="animate side opening.vi" Type="VI" URL="../animate side opening.vi"/>
-			<Item Name="Build Vizualization Filter.vi" Type="VI" URL="../Build Vizualization Filter.vi"/>
 			<Item Name="check status.vi" Type="VI" URL="../check status.vi"/>
 			<Item Name="close visualizer.vi" Type="VI" URL="../close visualizer.vi"/>
 			<Item Name="file an issue dialog.vi" Type="VI" URL="../file an issue dialog.vi"/>
 			<Item Name="filter table.vi" Type="VI" URL="../filter table.vi"/>
 			<Item Name="Format RIO Device Name.vi" Type="VI" URL="../Format RIO Device Name.vi"/>
-			<Item Name="get filter from UI inputs.vi" Type="VI" URL="../get filter from UI inputs.vi"/>
 			<Item Name="get max string length in loop.vi" Type="VI" URL="../get max string length in loop.vi"/>
 			<Item Name="get string length in pixels.vi" Type="VI" URL="../get string length in pixels.vi"/>
 			<Item Name="init and update listboxes.vi" Type="VI" URL="../init and update listboxes.vi"/>
@@ -49,24 +47,6 @@
 			<Item Name="update table.vi" Type="VI" URL="../update table.vi"/>
 			<Item Name="visualizer main.vi" Type="VI" URL="../visualizer main.vi"/>
 		</Item>
-	</Item>
-	<Item Name="Filters" Type="Folder">
-		<Item Name="Boolean" Type="Folder">
-			<Item Name="Boolean Filter.lvclass" Type="LVClass" URL="../Filters/Boolean Filter Parent/Boolean Filter.lvclass"/>
-			<Item Name="AND Filter.lvclass" Type="LVClass" URL="../Filters/AND Filter/AND Filter.lvclass"/>
-			<Item Name="NOT Filter.lvclass" Type="LVClass" URL="../Filters/NOT Filter/NOT Filter.lvclass"/>
-			<Item Name="OR Filter.lvclass" Type="LVClass" URL="../Filters/OR Filter/OR Filter.lvclass"/>
-			<Item Name="XOR Filter.lvclass" Type="LVClass" URL="../Filters/XOR Filter/XOR Filter.lvclass"/>
-		</Item>
-		<Item Name="Categories" Type="Folder">
-			<Item Name="Category Filter.lvclass" Type="LVClass" URL="../Filters/Category Filter Parent/Category Filter.lvclass"/>
-			<Item Name="Datatype Filter.lvclass" Type="LVClass" URL="../Filters/Datatype Filter/Datatype Filter.lvclass"/>
-			<Item Name="Input Type Filter.lvclass" Type="LVClass" URL="../Filters/Input Type Filter/Input Type Filter.lvclass"/>
-			<Item Name="Reserver Filter.lvclass" Type="LVClass" URL="../Filters/Reserver Filter/Reserver Filter.lvclass"/>
-			<Item Name="Resource Name Filter.lvclass" Type="LVClass" URL="../Filters/Resource Name Filter/Resource Name Filter.lvclass"/>
-			<Item Name="RIO Device Filter.lvclass" Type="LVClass" URL="../Filters/RIO Device Filter/RIO Device Filter.lvclass"/>
-		</Item>
-		<Item Name="Filter.lvclass" Type="LVClass" URL="../Filters/Filter Parent/Filter.lvclass"/>
 	</Item>
 	<Item Name="FPGA CD" Type="Folder">
 		<Item Name="get FPGA resource reservation info.vi" Type="VI" URL="../get FPGA resource reservation info.vi"/>
@@ -100,4 +80,7 @@
 	</Item>
 	<Item Name="RegisterMap to Table Entries.vi" Type="VI" URL="../RegisterMap to Table Entries.vi"/>
 	<Item Name="DMAMap to Table Entries.vi" Type="VI" URL="../DMAMap to Table Entries.vi"/>
+	<Item Name="get fpga resource names.vi" Type="VI" URL="../../../../Users/Tanner Blair/AppData/Roaming/Microsoft/Windows/Network Shortcuts/get fpga resource names.vi"/>
+	<Item Name="search for item.vi" Type="VI" URL="../search for item.vi"/>
+	<Item Name="get fgpa resources.vi" Type="VI" URL="../get fgpa resources.vi"/>
 </Library>
